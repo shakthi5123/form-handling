@@ -1,6 +1,5 @@
 import express from "express"
-const app = express()
-
+const app = express();
 // Middleware for parsing
 app.use(express.json())
 app.use(express.urlencoded( { extended: true }));
